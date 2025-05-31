@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 50px;
+    background-color: #f4f4f4;
+}
+
+.container {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    display: inline-block;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#startBtn {
+    background-color: green;
+    color: white;
+}
+
+#stopBtn {
+    background-color: red;
+    color: white;
+}
+
+#resumeBtn {
+    background-color: blue;
+    color: white;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+#statusText {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
